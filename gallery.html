@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Ema4kids</div>
+        <div class="nav">
+            <div id="side" class="hide"><ion-icon name="close-outline"></ion-icon></div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Our services</a>
+            <a href="blog.html">Blog</a>
+            <a href="donate.html">Donate</a>
+            <a href="mailto:ema4kids@gmail.com">Contact us</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="signin_navigate.html">sign in</a>
+        </div>
+        <div id="side" class="show"><ion-icon name="menu-outline"></ion-icon></div>
+    </div>
+    <div class="slideshow-container scroll_animation_fade" style="--i: 0;">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="images/slide-show/437510545_388912637308028_8788147597996769171_n.jpg" style="height: 100%; width:100%">
+            <!-- <div class="text">Caption Text</div> -->
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="images/slide-show/Retreat.jpg" style="height: 100%; width:100%">
+            <!-- <div class="text">Caption Two</div> -->
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="images/slide-show/result_img_2026_02_19_10_11_37.jpg" style="height: 100%; width:100%">
+            <!-- <div class="text">Caption Three</div> -->
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="images/slide-show/425004623_10233249764211272_4420062291319962418_n_edited.jpg" style="height: 100%; width:100%">
+            <!-- <div class="text">Caption Three</div> -->
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+    </div>
+    <!-- Photo Grid -->
+    <div class="row"> 
+        <div class="column">
+            <img src="images/gallery/e078d8_e7ffe95d4eb14d91a4c20a64b7d0149b~mv2.jpg" style="width:100%">
+            <img src="images/gallery/ema.anthem.jpg" style="width:100%">
+            <img src="images/gallery/garose.jpg" style="width:100%">
+            <img src="images/gallery/IMG-20230707-WA0021.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="images/gallery/IMG-20230707-WA0038_edited_edited_edited.jpg" style="width:100%">
+            <img src="images/gallery/IMG-20241011-WA0255(2).jpg" style="width:100%">
+            <img src="images/gallery/Rebecca Haruna.jpg" style="width:100%">
+            <img src="images/gallery/IMG-20260825-WA0018(1).jpg" style="width:100%">
+        </div>  
+        <div class="column">
+            <img src="images/gallery/nasir.jpg" style="width:100%">
+            <img src="images/gallery/Plateau-State Polytechnic-Barkin-Ladi-1.jpeg" style="width:100%">
+            <img src="images/gallery/radio_img.jpg" style="width:100%">
+            <img src="images/gallery/IMG-20260209-WA0027.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="images/gallery/result_img_2026_02_19_10_11_37.jpg" style="width:100%">
+            <img src="images/gallery/Retreat.jpg" style="width:100%">
+            <img src="images/gallery/WhatsApp Image 2025-06-30 at 14.06.05.jpeg" style="width:100%">
+            <img src="images/gallery/zainab.jpg" style="width:100%">
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
